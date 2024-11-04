@@ -1,4 +1,4 @@
-const apiKey = 'ce5cf58b109da8306e12057668b4a26e';
+const apiKey = 'xxx';
 const city = 'Halifax'
 const units = 'metric';
 

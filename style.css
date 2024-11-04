@@ -1,0 +1,33 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#weather {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#weather h2 {
+    margin: 0;
+}
+
+#forecast {
+    list-style-type: none;
+    padding: 0;
+}
+
+#forecast li {
+    margin: 5px 0;
+}

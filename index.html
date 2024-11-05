@@ -3,18 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="1800">
     <title>DYC Weather</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="weather">
+     <div id="weather-wrapper">
         <h2>DYC Weather</h2>
-        <p id="location">Location: <span id="city">Loading...</span></p>
-        <p id="temp">Temperature: <span id="temperature">Loading...</span> °C</p>
-        <p id="description">Description: <span id="weatherDescription">Loading...</span></p>
-        <p id="windSpeed">Current Wind Speed: <span id="currentWindSpeed">Loading...</span> kts </p>
-        <p id="windDirection">Current Wind Direction: <span id="currentWindDirection">Loading...</span></p>
+        <img id="weatherIcon" src="">
+        <p id="temp"><span id="temperature">Loading...</span> °C</p>
+        <p id="weatherdescriptionText"> <span id="weatherDescription">Loading...</span></p>
+        <p id="windSpeed"><span id="currentWindSpeed">Loading...</span> kts </p>
+        <p id="windDirection"><span id="currentWindDirection">Loading...</span></p>
+        <div id="windArrow">↑</div>
+
+            
+            
+        <!--   <div id="temp"><span id="temperature">Loading...</span> °C</div>
+            <div id="windArrow">↑</div>
+            <p id="windSpeed"><span id="currentWindSpeed">Loading...</span> kts </p>
+            <p id="windDirection">Direction: <span id="currentWindDirection">Loading...</span></p>
+        </div>
+        -->
+        
+
+        
+        
+        
         <h3>3-Day Wind Speed Forecast</h3>
+        
+        
+        
+        
         <ul id="forecast"></ul>
     </div>
 
